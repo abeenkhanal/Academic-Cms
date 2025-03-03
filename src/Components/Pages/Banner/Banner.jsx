@@ -44,6 +44,8 @@ const Banner = () => {
           <p className="mt-2 text-sm">Edit the banner section content below</p>
         </div>
 
+
+
         <div className="p-6">
           <h2 className="text-xl font-semibold mb-4 text-gray-700">Edit Content</h2>
           <form className="space-y-6">
