@@ -14,7 +14,7 @@ import Aboutus from "./Components/Pages/Aboutus/Aboutus";
 import Tailored from "./Components/Pages/Tailored/Tailored";
 import Tailoredtitle from "./Components/Pages/Tailored/Tailoredtitle";
 import Connect from "./Components/Pages/Connect/Connect";
-import Connecttitle from "./Components/Pages/Connect /Connecttitle";
+import Connecttitle from "./Components/Pages/Connect/Connecttitle";
 import Pricing from "./Components/Pages/Pricing/Pricing";
 import Pricingtitle from "./Components/Pages/Pricing/Pricingtitle";
 import Discover from "./Components/Pages/Discover/Discover";
