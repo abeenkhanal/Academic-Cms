@@ -13,8 +13,6 @@ import Testimonials from "./Components/Pages/Testimonials/Testimonials";
 import Aboutus from "./Components/Pages/Aboutus/Aboutus";
 import Tailored from "./Components/Pages/Tailored/Tailored";
 import Tailoredtitle from "./Components/Pages/Tailored/Tailoredtitle";
-import Connect from "./Components/Pages/Connect /Connect";
-import Connecttitle from "./Components/Pages/Connect /Connecttitle";
 import Pricing from "./Components/Pages/Pricing/Pricing";
 import Pricingtitle from "./Components/Pages/Pricing/Pricingtitle";
 import Discover from "./Components/Pages/Discover/Discover";
@@ -56,8 +54,6 @@ function App() {
             <Route path="/aboutus" element={<Aboutus/> } />   
             <Route path="/pagelayout/tailored" element={<Tailoredtitle/> } />  
             <Route path="/tailored" element={<Tailored/> } />  
-            <Route path="/connect" element={<Connect/> } /> 
-            <Route path="/pagelayout/connect" element={<Connecttitle/> } />    
             <Route path="/pricing" element={<Pricing/> } /> 
             <Route path="/pagelayout/pricing" element={<Pricingtitle/> } /> 
             <Route path="/discover" element={<Discover/> } />
