@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center">
         <p className="text-sm">&copy; {new Date().getFullYear()} Abeen Khanal. All rights reserved.</p>
       </div>
-      <div>here</div>
+      <div>oky</div>
     </footer>
   )
 }

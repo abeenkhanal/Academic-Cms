@@ -13,6 +13,8 @@ import Testimonials from "./Components/Pages/Testimonials/Testimonials";
 import Aboutus from "./Components/Pages/Aboutus/Aboutus";
 import Tailored from "./Components/Pages/Tailored/Tailored";
 import Tailoredtitle from "./Components/Pages/Tailored/Tailoredtitle";
+import Connect from "./Components/Pages/Connect/Connect";
+import Connecttitle from "./Components/Pages/Connect /Connecttitle";
 import Pricing from "./Components/Pages/Pricing/Pricing";
 import Pricingtitle from "./Components/Pages/Pricing/Pricingtitle";
 import Discover from "./Components/Pages/Discover/Discover";
@@ -23,7 +25,7 @@ import Transform from "./Components/Pages/Transform/Transform";
 import Transformtitle from "./Components/Pages/Transform/Transformtitle";
 import Progressbar from "./Components/Pages/Progressbar/Progressbar";
 import Whyus from "./Components/Pages/Whyus/Whyus";
-import Vision from "./Components/Pages/Vision /Vision";
+import Vision from "./Components/Pages/Vision/Vision";
 import Pharmacysolution from "./Components/Pages/Pharmacysolution/Pharmacysolution";
 import Pharmacysolutiiontitle from "./Components/Pages/Pharmacysolution/Pharmacysolutiiontitle";
 import Dashboard from "./Components/Pages/Dashboard/Dashboard";
@@ -54,6 +56,8 @@ function App() {
             <Route path="/aboutus" element={<Aboutus/> } />   
             <Route path="/pagelayout/tailored" element={<Tailoredtitle/> } />  
             <Route path="/tailored" element={<Tailored/> } />  
+            <Route path="/connect" element={<Connect/> } /> 
+            <Route path="/pagelayout/connect" element={<Connecttitle/> } />    
             <Route path="/pricing" element={<Pricing/> } /> 
             <Route path="/pagelayout/pricing" element={<Pricingtitle/> } /> 
             <Route path="/discover" element={<Discover/> } />
