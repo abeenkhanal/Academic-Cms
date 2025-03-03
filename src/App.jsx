@@ -44,7 +44,7 @@ function App() {
         
           <Navigation />
           <Routes>
-           <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path="/hero" element={<Hero />} />
             <Route path="/banner" element={<Banner/>} />
             <Route path="/revolutionize" element={<Revolutionize />} />
